@@ -1,12 +1,12 @@
-*{
-	font-family: 'Muli', sans-serif;
-}
-
 body{
 	line-height: 1.6;
 	font-size:18px;
 	color:#444;
-	padding:0 10px;
+	font-family: 'Muli', sans-serif;
+}
+
+hr{
+	width:100%;
 }
 
 #background{
@@ -21,4 +21,19 @@ body{
 	background-color:#fdfdfd;
 	border-right:2px solid #f1f1f1;
 	border-left:2px solid #f1f1f1;
+}
+
+.navbar{
+	font-size:1.5rem;
+	background-color:#005DAA;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.nav-item{
+	margin-left:1rem;
+	margin-right: 1rem;
+}
+
+.nopadding{
+	padding:0;
 }
