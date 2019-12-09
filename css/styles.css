@@ -1,5 +1,5 @@
 body{
-	line-height: 1.6;
+	line-height: 1.8;
 	font-size:18px;
 	color:#444;
 	font-family: 'Muli', sans-serif;
@@ -7,6 +7,11 @@ body{
 
 hr{
 	width:100%;
+}
+
+h3{
+	margin-top:1rem;
+	margin-bottom:1rem;
 }
 
 #background{
@@ -23,10 +28,15 @@ hr{
 	border-left:2px solid #f1f1f1;
 }
 
+.color-blue{
+	color:#005DAA;
+}
+
 .navbar{
 	font-size:1.5rem;
 	background-color:#005DAA;
 	font-family: 'Bebas Neue', cursive;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-item{
@@ -36,4 +46,17 @@ hr{
 
 .nopadding{
 	padding:0;
+}
+
+.insert{
+	max-width:80%;
+	margin:3rem auto;
+	border-top:2px dashed #777;
+	border-bottom:2px dashed #777;
+}
+
+.boximg{
+	margin:1rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:90%;
 }
